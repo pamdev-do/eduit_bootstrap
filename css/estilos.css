@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Mulish:wght@400;900&family=Raleway&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Mulish:wght@400;900&family=Open+Sans&family=Raleway&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body{
+    background-color: #F5F5F5;
+}
+
+/* FONTS */
+h1,h2,h3 {
+    font-family: 'Kiwi Maru', serif;
+    color: #15163d;
+} 
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    /*font-size: 18px;*/
+    color:#71718d;
+}
+
+
+/* NAVEGACION */
+nav a.active, nav .nav-link:hover{
+    color: gray !important;
+    text-decoration: underline;
+}
+
+.navbar_menu{
+    text-transform: uppercase;
+    color: #15163d;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; 
+    align-content: flex-end;
+    
+    flex-flow: row wrap;
+
+    margin-top: 40px;
+   /* padding-top: 40px; */
+   /* margin-top: auto;
+    flex-wrap: wrap;
+    fw-bolder list -unlisted d-inline- flex
+    
+    */
+    max-width: 100%;
+    
+    gap: 20px;
+    
+    
+
+}
+.navbar_menu-item{  
+    list-style-type: none;
+}
+
+.navbar_logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu-footer{
+    list-style-type: none;
+}
+
+/* TIPOGRAFIAS  */
+
+.titulo_principal{ 
+    font-size: 64;
+    text-align: center;
+}
+
+.texto_principal{
+    text-align: center;
+}
+
+.text-section{
+    text-transform: uppercase;
+    color: #0a2ff1;    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+}
